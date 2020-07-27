@@ -10,6 +10,10 @@ Rectangle2D::Rectangle2D(Point start, float width, float height)
 	setRectangle();
 }
 
+Rectangle2D::~Rectangle2D()
+{
+}
+
 
 bool Rectangle2D::isInRectangle(const Point& point) const
 {

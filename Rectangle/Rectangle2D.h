@@ -11,6 +11,8 @@ class Rectangle2D
 {
 public:	
 	Rectangle2D(Point start, float width, float height );
+	~Rectangle2D();
+
 	bool isInRectangle(const Point& point) const;
 	bool isColliding(const Rectangle2D& rectangle) const;
 
